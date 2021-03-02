@@ -11,7 +11,6 @@ public abstract class AbstractParser implements Parser {
     public AbstractParser() {
 
     }
-
     protected Parser getSuccessor() {
         return successor;
     }

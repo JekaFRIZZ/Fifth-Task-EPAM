@@ -7,7 +7,7 @@ import java.util.Arrays;
 
 public class ParagraphsParser extends AbstractParser {
 
-    private final String SPLITTER = "[.?!]";
+    private final String SPLITTER = "[.?!]+ ";
 
     public ParagraphsParser(Parser successor) {
         super(successor);
